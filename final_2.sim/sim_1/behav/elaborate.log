@@ -1,0 +1,75 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 681a65902c8d4b19a3e2ec68fa664faa --debug typical --relax -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot AES_test_behav xil_defaultlib.AES_test xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 10 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 4 for port rc [C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/AES-128/AES_Encryption/AES_Encryption.v:57]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 4 for port rc [C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/AES-128/AES_Encryption/AES_Encryption.v:69]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 4 for port rc [C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/new/AES_Decryption.v:63]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 4 for port rc [C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/new/AES_Decryption.v:76]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Shift_rows.v" Line 1. Module inv_Shift_rows doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/kanna/Downloads/final_2/final_2.srcs/sources_1/imports/new/inv_Sub_bytes.v" Line 1. Module inv_Sub_bytes_default doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.Sbox
+Compiling module xil_defaultlib.Key
+Compiling module xil_defaultlib.MUX2_1
+Compiling module xil_defaultlib.Sub_Bytes
+Compiling module xil_defaultlib.DFF_128
+Compiling module xil_defaultlib.Shift_Rows
+Compiling module xil_defaultlib.lut2
+Compiling module xil_defaultlib.lut3
+Compiling module xil_defaultlib.Mix_Column
+Compiling module xil_defaultlib.mux
+Compiling module xil_defaultlib.Sub_Key
+Compiling module xil_defaultlib.Round_reg
+Compiling module xil_defaultlib.AES_Encryption_default
+Compiling module xil_defaultlib.inv_Shift_rows
+Compiling module xil_defaultlib.inverseSbox
+Compiling module xil_defaultlib.inv_Sub_bytes_default
+Compiling module xil_defaultlib.inv_Sub_Key
+Compiling module xil_defaultlib.inv_Mix_Column
+Compiling module xil_defaultlib.AES_Decryption_default
+Compiling module xil_defaultlib.AES_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot AES_test_behav

@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:24:04 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Mon Jun 27 16:08:54 2022
+# Process ID: 13428
+# Log file: C:/Users/kanna/Downloads/final_2/final_2.sim/sim_1/behav/webtalk.log
+# Journal file: C:/Users/kanna/Downloads/final_2/final_2.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/kanna/Downloads/final_2/final_2.sim/sim_1/behav/xsim.dir/AES_test_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 3649724166 -regid "210997196_1777505744_0_125" -xml C:/Users/kanna/Downloads/final_2/final_2.sim/sim_1/behav/xsim.dir/AES_t..."
+    (file "C:/Users/kanna/Downloads/final_2/final_2.sim/sim_1/behav/xsim.dir/AES_test_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Mon Jun 27 16:08:55 2022...
